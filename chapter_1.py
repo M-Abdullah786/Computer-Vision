@@ -6,7 +6,7 @@ print("Package Imported")
 # Importing Image
 img = cv2.imread("resources/mona_lisa.png")
 cv2.imshow("Mona Lisa Image", img)
-cv2.waitKey(0) # 0 means adding infinte delay
+cv2.waitKey(0) # 0 means adding infinite delay
 
 # for video
 cap = cv2.VideoCapture("resources/test_video.mp4") #path
